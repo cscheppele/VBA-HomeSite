@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #5bc0d5;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+}
