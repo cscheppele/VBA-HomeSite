@@ -1,0 +1,13 @@
+Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:sticky;
+    width: 100vw;
+    height:15vh;
+    min-height: 15px;
+}
+
+Link {
+    width: 5px;
+}
