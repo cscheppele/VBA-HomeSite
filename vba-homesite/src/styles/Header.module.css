@@ -1,13 +1,28 @@
-Main {
+.Main {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
+    align-items: center;
     position:sticky;
     width: 100vw;
-    height:15vh;
-    min-height: 15px;
+    min-height: 10px;
+    background-color: #373434;
+    color: #ffffff;
 }
 
-Link {
-    width: 5px;
+.LinkBox{
+    display: flex;
+}
+
+.Link {
+    width: fit-content;
+}
+
+.SignUpBox {
+    display: flex;
+}
+
+.Logo {
+    width: 260px;
+    height: 80px;
 }
