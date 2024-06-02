@@ -1,4 +1,4 @@
-import '../Styling/Board.module.css';
+import '../styles/Board.module.css';
 
 function Board () {
 

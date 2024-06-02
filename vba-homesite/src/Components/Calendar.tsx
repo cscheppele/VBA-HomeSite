@@ -1,7 +1,8 @@
-import '../Styling/Calendar.module.css';
+import styles from '../styles/Calendar.module.css';
 
-function Calendar () {
+export default function Calendar () {
 
+    return (
+        <div></div>
+    )
 }
-
-export default Calendar;
