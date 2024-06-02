@@ -1,7 +1,10 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: #5bc0d5;
   height: 100vh;
+  overflow-y: scroll;
 }
 
 .App-header {
