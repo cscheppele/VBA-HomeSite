@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.heroPic {
+    width:40vw;
+}
+
+.mission {
+    color: #ffffff;
+    width: 40vw;
+}
