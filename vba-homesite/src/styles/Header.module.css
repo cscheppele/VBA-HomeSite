@@ -1,25 +1,33 @@
 .Main {
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
     position:sticky;
     width: 100vw;
-    min-height: 10px;
+    min-height: 80px;
     background-color: #373434;
     color: #ffffff;
 }
 
 .LinkBox{
     display: flex;
+    justify-content: space-between;
 }
 
 .Link {
     width: fit-content;
+    padding: 2px;
+}
+
+.Link :hover {
+    text-decoration: underline;
+    color: #fdb812
 }
 
 .SignUpBox {
     display: flex;
+    margin-right: 5px;
+    text-decoration: underline;
 }
 
 .Logo {
