@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Winners from './components/Winners';
 import Calendar from './components/Calendar';
+import Board from './components/Board';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Winners/>
       <Calendar/>
+      <Board/>
     </div>
   );
 }
