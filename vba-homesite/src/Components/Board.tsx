@@ -13,6 +13,7 @@ function Board () {
                 <BoardMember/>
                 <BoardMember/>
                 <BoardMember/>
+                <BoardMember/>
             </div>
         </div>
     )

@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Winners from './components/Winners';
 import Calendar from './components/Calendar';
 import Board from './components/Board';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Winners/>
       <Calendar/>
       <Board/>
+      <Contact/>
     </div>
   );
 }
