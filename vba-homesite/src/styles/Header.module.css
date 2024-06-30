@@ -18,11 +18,13 @@
 .Link {
     width: fit-content;
     padding: 2px;
+    color: white;
+    text-decoration: none;
 }
 
-.Link :hover {
+.Link:hover {
     text-decoration: underline;
-    color: #fdb812
+    color: #f8c754
 }
 
 .SignUpBox {

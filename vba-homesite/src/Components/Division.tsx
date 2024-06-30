@@ -14,7 +14,7 @@ interface CurrentDivProps {
 export default function Division (/*currentDiv:string*/) {
     //need a function to track state and swap the currentDiv accordingly.
     return (
-        <div className={styles.main}>
+        <div id="winners" className={styles.main}>
             <div className={styles.winnerBlock}>
                 <img className={styles.teamPhoto} src='/hero-placeholder.jpeg'/>
                 <h4>season winner team name</h4>

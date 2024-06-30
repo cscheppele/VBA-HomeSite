@@ -6,11 +6,11 @@ function Header () {
         <div className={styles.Main}>
             <img className={styles.Logo} src="/VBA-header-logo.jpeg"/>
             <div className={styles.LinkBox}>
-                <div className={styles.Link}>Home</div>
-                <div className={styles.Link}>Awards</div>
-                <div className={styles.Link}>Calendar</div>
-                <div className={styles.Link}>Board</div>
-                <div className={styles.Link}>Contact</div>
+                <a href="#hero" className={styles.Link}>Home</a>
+                <a href="#winners" className={styles.Link}>Awards</a>
+                <a href="#calendar" className={styles.Link}>Calendar</a>
+                <a href="#board" className={styles.Link}>Board</a>
+                <a href="#contact" className={styles.Link}>Contact</a>
             </div>
             <div className={styles.SignUpBox}>
                 <div>Sign Up</div>

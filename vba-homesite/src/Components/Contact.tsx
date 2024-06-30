@@ -2,7 +2,7 @@ import styles from '../styles/Contact.module.css';
 
 function Contact () {
     return (
-        <div className={styles.main}>
+        <div id="contact" className={styles.main}>
             <div className={styles.contactBlock}>
             <h3>Contact Us</h3>
             <div>info@volleyballaustin.com</div>
