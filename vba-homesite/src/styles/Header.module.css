@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     position:sticky;
-    width: 100vw;
+    top: 0;
+    width: 100%;
     min-height: 80px;
     background-color: #373434;
     color: #ffffff;
@@ -12,14 +13,14 @@
 .LinkBox{
     display: flex;
     justify-content: space-between;
-    width: 50vw;
+    width: fit-content;
 }
 
 .Link {
     width: fit-content;
-    padding: 2px;
     color: white;
     text-decoration: none;
+    padding: 0px 2vw;
 }
 
 .Link:hover {
